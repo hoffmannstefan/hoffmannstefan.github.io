@@ -16,6 +16,9 @@ body {
 	/* background-color: #eee; */
 	bakcground-color: white;
 	font-family: "Helvetica Neue", Arial, sans-serif;
+	margin-top:30px;
+	margin-left:110px;
+	margin-right:110px;
 }
 
 h3,h4 { 
@@ -34,13 +37,14 @@ width:220px;
  /* margin:10px; */
  padding:15px; 
  padding-top:30px;
+ margin-left:20px;
 }
 
  nav#menu {
  float:left;
  width:220px;
    font-size: 14px;
-   background-color: #fff;
+   /* background-color: #fff; */
    box-shadow: 0 5px 20px #efefef;
    margin: 0;
    padding: 0 1em;
@@ -116,6 +120,10 @@ width:220px;
    background-color: rgba(51, 51, 51, 0.08);
 }
 
+li:not(:last-child) {
+    padding-bottom: 11px;
+}
+
 </style> <!-- header.img { width:100%; height:100%; } -->
   </head>
   <body>
@@ -140,42 +148,47 @@ width:220px;
 	 <!-- link auf arxiv overview page -->
 	<!-- </div> -->
 	
-	<div style="float:right;font-size:12px">
+	<div style="float:right;font-size:13px;">
 	<a href="https://dblp.org/pid/73/962-1.html">
          DBLP</a>
 	   &#183; 
-	   <a href="googlescholar">Google Scholar</a>
+	   <a href="https://scholar.google.com/citations?user=d0Ht2_MAAAAJ&hl=de">Google Scholar</a>
 	   &#183; 
 	   <a href="https://orcid.org/0000-0002-7866-075X">ORCID</a>
 	   &#183;
-	   <a href="todo">ResearchGate</a>
+	   <a href="https://www.researchgate.net/profile/Stefan-Hoffmann-10">ResearchGate</a>
 	   &#183;
 	   <a href="http://arxiv.org/a/hoffmann_s_1">ArXiv</a>
 	   </div>
 	   
-	<div> <!-- style="padding: 5px; border: 1px solid red;"> -->
-    <div style="background-color:#a3f0b8; width: 220px; height:2000px; position: absolute;"> <!-- border: 1px solid black; word-wrap: break-word;"> -->
+	<div style="border: 1px dashed black;"> <!-- style="padding: 5px; border: 1px solid red;"> -->
+    <div style="background-color:#ffffff; position: absolute;"> <!-- border: 1px solid black;"> <!-- width: 220px; height:2000px;"> <!-- border: 1px solid black; word-wrap: break-word;"> -->
 	<div><!-- class="header"> -->
 		
-		<img src="pic_small.jpg" style="width:220px; height:100%">
+		<br/>
+		<img src="pic_small.png" style="margin-left:10px; width:200px; height:100%">
 		
 	</div>
 	<nav id="menu2"> <!-- style="border:1px solid black;width=100px;background-color:white;"> -->
 	
-<!-- 	
+	
   <ul>
-    <li><a href="/newsletter/">Newsletter</a></li>
-    <li><a href="/seo/">SEO</a></li>
+    &nbsp;
+	&nbsp;
+    <li><a href="./index.html">Start</a></li>
+    <li><a href="./notes.html">Notes</a></li>
+	<!--
     <li><a href="/tools/">Tools</a></li>
     <li><a href="/websites/">Webseiten erstellen</a></li>
     <li><a href="/webdesign/">Webdesign</a></li>
     <li><a href="/websites/wordpress/">WordPress</a></li>
+	-->
   </ul>
-  -->
+
 </nav>
 
 	</div>
-    <div style="margin-left: 220px; background-image: url('background.jpg');">
+    <div style="margin-left: 220px;"> <!-- background-image: url('background.jpg');"> -->
 	 
 	 <!-- google scholar, researchgate acc + link -->
 	 
@@ -202,7 +215,7 @@ width:220px;
 	 <b>Research interest keywords</b>: automata, formal language theory, synchronization, (finite) permutation group theory, permutation automata, group languages, computational complexity, shuffle product, partial commutativity, commutative languages, state complexity, omega languages.
 	 </p> 
 	 
-	 <p>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erd&ouml;s number</a> is three (via Henning Fernau or Ludwig Staiger, both two).</p>
+	 <p>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erd&ouml;s number</a> is three (via <a href="http://www.informatik.uni-trier.de/~fernau/">Henning Fernau</a> or <a href="https://www.informatik.uni-halle.de/arbeitsgruppen/theorie/mitarbeiter/staiger/">Ludwig Staiger</a>, both two).</p>
 	 
 	 <p>
 	 Contact: hoffmanns (at) informatik (dot) uni (hyphen) trier (dot) de
@@ -212,8 +225,8 @@ width:220px;
 	 
 	 
 	 <p> 
-	 For some papers, I have put up a link to an errata - unfortunately mistakes happens, but up to now they were all minor
-	 and I mostly fixed them in the latest arXiv version (indicated in the corresponding errata file). If you spot any mistakes or unclear formulations, please do not hesitate to tell me. 
+	 For some papers, I have put up a link to an errata - unfortunately mistakes happen, but up to now they were all minor
+	 and I mostly fixed them in the latest arXiv version (indicated in the corresponding errata file). If you spot any mistakes or unclear formulations, please do not hesitate to tell me!
 	 </p>
 	 
 	 <!-- 
@@ -235,8 +248,7 @@ width:220px;
 	 
 	 <hr/>
 	 
-	 <h3>In preparation:</h3> 
-	 
+	 <h3>In preparation:</h3> 	 
 	 
 	  <ul> 
 	  <li><i>New Characterizations of Primitive Permutation Groups with Applications to Synchronizing Automata</i> (Journal Version)</li>
@@ -252,81 +264,142 @@ width:220px;
 	 <h4>2021</h4>
 	 
 	  <ul> 
+	  
+	  <li>Stefan Hoffmann, <i>Sync-Maximal Permutation Groups Equal Primitive Permutation Groups</i> 
+	  <br/>
+	  <a href="http://toc.yonsei.ac.kr/dcfs2021/">
+	  23rd International Conference on Descriptional Complexity of Formal Systems (DCFS) 2021</a> 
+	  </li>
+
+	  
+	  <li>Stefan Hoffmann, <i>Commutative Regular Languages with Product-Form Minimal Automata</i> 
+	  <br/>
+	  <a href="http://toc.yonsei.ac.kr/dcfs2021/">
+	  23rd International Conference on Descriptional Complexity of Formal Systems (DCFS) 2021</a> 
+	  </li>
+	  
+	  
+	  <li>Stefan Hoffmann, <i>State Complexity Bounds for Upward and Downward Closures on Commutative Languages and Further Results for Two Subclasses</i>
+	   <!--  Commutative Group and Commutative Aperiodic Languages</i> -->
+	  <br/>
+	  <a href="http://toc.yonsei.ac.kr/dcfs2021/">
+	  23rd International Conference on Descriptional Complexity of Formal Systems (DCFS) 2021</a> 
+	  </li>
+	  
+	  
+	  <li>Stefan Hoffmann, <i>Ideal Separation and General Theorems for Constrained Synchronization and their Application to Small Constraint Automata</i> 
+	  <br/>
+	  <a href="http://cocoon-conference.org/2021/">
+	  The 27th International Computing and Combinatorics Conference (COCOON) 2021</a> 
+	  </li>
+	  
 	  <li>Stefan Hoffmann, <i>Computational Complexity of Synchronization under Sparse Regular Constraints</i> 
-	  </br>
+	  <br/>
 	  <a href="https://www.corelab.ntua.gr/fct2021/">
 	  International Symposium on
-Fundamentals of Computation Theory (FCT) 2021</a> &#183; <a href="https://arxiv.org/abs/2108.00081">arXiv version</a> &#183; <a href="springerversion">conference version</a>
-	  &#183; <a href="springerversion">slides</a></li>
+Fundamentals of Computation Theory (FCT) 2021</a>
+      <br/>
+	  <a href="https://arxiv.org/abs/2108.00081">arXiv version</a>
+	  &#183; 
+	  <a href="./errata/Computational_Complexity_of_Synchronization_under_Strictly_Bounded_Regular_Constraints_Errata.pdf">errata</a>
+	  </li>
 	  
 	  <li>Stefan Hoffmann, <i>The n-ary Literal Shuffle and Variants</i> 
-	  </br>
+	  <br/>
 	  <a href="http://www.stringology.org/">
-	  Prague Stringology Conference (PSC) 2021</a> &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a>
-	  &#183; <a href="springerversion">slides</a> &#183; <a href="springerversion">errata</a></li>
+	  Prague Stringology Conference (PSC) 2021</a>
+      <br/>
+	  <a href="https://arxiv.org/abs/2108.09282">arXiv version</a> &#183; <a href="http://www.stringology.org/event/2021/p06.html">conference version and slides</a>
+	  </li>
 	  
 	  <li>Stefan Hoffmann, <i>State Complexity of Projection on Languages Recognized by Permutation Automata and Commuting Letters</i> 
-	  </br>
+	  <br/>
 	  <a href="https://dlt2021.dcc.fc.up.pt/AcceptedPapers/">
-	  Developments in Language Theory (DLT) 2021</a> &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a>
-	  &#183; <a href="springerversion">slides</a> &#183; <a href="springerversion">errata</a></li>	 
+	  Developments in Language Theory (DLT) 2021</a>  
+	  <br/><a href="https://arxiv.org/abs/2108.06976">arXiv version</a> &#183;
+	  <a href="https://doi.org/10.1007/978-3-030-81508-0_16">conference version</a>
+	  &#183; <a href="./slides/DLT_2021_Presentation_State_Complexity_of_Projection_on_Languages_Recognized_by_Permutation_Automata_and_Commuting_Letters.pdf">slides</a> &#183; <a href="./errata/State_Complexity_of_Projection_on_Permutation_Automata_Errata.pdf">errata</a>
+	  </li>	 
+	  
       <li>Stefan Hoffmann, <i>Constrained Synchronization and Subset Synchronization Problems for Weakly Acyclic Automata</i>
-	  </br>
+	  <br/>
 	  <a href="https://dlt2021.dcc.fc.up.pt/AcceptedPapers/">
-	  Developments in Language Theory (DLT) 2021</a> &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>  
+	  Developments in Language Theory (DLT) 2021</a> 
+      <br/>
+	  <a href="https://arxiv.org/abs/2108.06984">arXiv version</a> &#183; <a href="https://doi.org/10.1007/978-3-030-81508-0_17">conference version</a>
+	  &#183; <a href="./slides/Constrained_Synchronization_and_Weakly_Acyclic_Automata.pdf">slides</a>
+	  </li>  
 	  
 	  <li>Stefan Hoffmann, <i>Regularity Conditions for Iterated Shuffle on Commutative Regular Languages</i>
-	  </br>
+	  <br/>
 	  <a href="http://wwwdb.informatik.uni-bremen.de/ciaa2021/">
 	  International Conference on Implementation and Application of Automata (CIAA) 2021</a>
-	  </a> &#183; <a href="https://arxiv.org/abs/2103.09587">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>
+	  <br/>
+	  <a href="https://arxiv.org/abs/2103.09587">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-79121-6_3">conference version</a> &#183;
+	  <a href="./slides/CIAA_2021_Iterated_Shuffe_on_Commutative_Regular_Languages_Presentation.pdf">slides</a>
+	  </li>
 	  
 	  <li>Stefan Hoffmann, <i>The Commutative Closure of Shuffle Languages over Group Languages is Regular</i>
-      </br>
+      <br/>
 	  <a href="http://wwwdb.informatik.uni-bremen.de/ciaa2021/">
 	  International Conference on Implementation and Application of Automata (CIAA) 2021</a>
-	  </a> &#183; <a href="https://arxiv.org/abs/2008.05420">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>
+	  <br/>
+	  <a href="https://arxiv.org/abs/2008.05420">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-79121-6_5">conference version</a> &#183;
+	  <a href="./slides/CIAA_2021_Shuffle_of_Group_Languages_Presentation.pdf">slides</a>
+	  </li>
 	  
 	  
 	  <li>Stefan Hoffmann, <i>State Complexity of Permutation and Related Decision Problems on Alphabetical Pattern Constraints</i>
-	  </br>
+	  <br/>
 	  <a href="http://wwwdb.informatik.uni-bremen.de/ciaa2021/">
 	  International Conference on Implementation and Application of Automata (CIAA) 2021</a>
-	  </a> &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>
+	  <br/> 
+	  <a href="https://arxiv.org/abs/2006.15178">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-79121-6_10">conference version</a> &#183;
+	  <a href="./slides/CIAA_2021_State_Complexity_APC_Presentation.pdf">slides</a> &#183; <a href="./errata/State_Complexity_of_Permutation_on_APCs_Errata.pdf">errata</a>
+	  </li>
 	  
 	 
 	  <li>Stefan Hoffmann, <i>Completely Reachable Automata, Primitive Groups and the State Complexity of the Set of Synchronizing Words</i>
-	  </br>
+	  <br/>
 	  <a href="https://irdta.eu/lata2020-2021//acceptedpapers/">Language and Automata Theory and Applications (LATA) 2021</a>
-	  &#183; <a href="https://arxiv.org/abs/2007.09104">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>	 
+	  <br/>
+	  <a href="https://arxiv.org/abs/2007.09104">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-68195-1_24">conference version</a></li>	 
 	  
 	  <li>Stefan Hoffmann, <i>State Complexity of the Set of Synchronizing Words for Circular Automata and Automata over Binary Alphabets</i>
-	  </br>
+	  <br/>
 	  <a href="https://irdta.eu/lata2020-2021//acceptedpapers/">Language and Automata Theory and Applications (LATA) 2021</a>
-	  &#183; <a href="https://arxiv.org/abs/2011.14404">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>	 
+	  <br/>
+	  <a href="https://arxiv.org/abs/2011.14404">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-68195-1_25">conference version</a></li>	 
 	  </ul>
 	
 	 <h4>2020</h4>
 	
 	  <ul>
 	  <li>Stefan Hoffmann, <i>State Complexity Bounds for the Commutative Closure of Group Languages</i>
-	  </br>
+	  <br/>
 	  <a href="http://www.informatik.uni-giessen.de/dcfs/accepted.html">Descriptional Complexity of
 Formal Systems (DCFS) 2020</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>	 
+	  <br/>
+	  <a href="https://arxiv.org/abs/2004.11772">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-62536-8_6">conference version</a></li>	 
 
 	  
 	   <li>Stefan Hoffmann, <i>On a Class of Constrained Synchronization Problems in NP</i>
-	  </br>
+	  <br/>
 	  <a href="https://sites.google.com/view/ictcs-2020/home/accepted-papers">Italian Conference on Theoretical Computer Science (ICTCS) 2020</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="http://ceur-ws.org/Vol-2756/paper_19.pdf">conference version</a></li>	 
+	  <br/>
+	  <a href="https://arxiv.org/abs/2006.01903">arXiv version</a> &#183; <a href="http://ceur-ws.org/Vol-2756/paper_19.pdf">conference version</a>
+	  &#183; 
+	  <a href="./errata/On_a_Class_of_Constrained_Synchronization_Problems_in_NP_Errata.pdf">errata</a>
+	  </li>	 
 	
 	  
 	  
 	  <li>Stefan Hoffmann, <i>Computational Complexity of Synchronization Under Regular Commutative Constraints</i>
-	  </br>
-	  <a href="http://cocoon-conference.org/2020/html/Accepted_Papers.html"> International Computing and Combinatorics Conference (COCOON) 2021</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>	 
+	  <br/>
+	  <a href="http://cocoon-conference.org/2020/html/Accepted_Papers.html"> International Computing and Combinatorics Conference (COCOON) 2020</a>
+	  <br/>
+	  <a href="https://arxiv.org/abs/2005.04042">arXiv version</a> &#183; <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-58150-3_37">conference version</a> &#183; <a href="./errata/Complexity_of_Constrained_Synchronization_for_the_Class_of_Commutative_Languages_Errata.pdf">errata</a> 
+	  </li>
 	  </ul>
 	  
 	  
@@ -334,49 +407,46 @@ Formal Systems (DCFS) 2020</a>
 	 
 	  <ul>	    
 	  <li>Henning Fernau, Stefan Hoffmann, <i>Extensions to Minimal Synchronizing Words</i>
-	  </br>
+	  <br/>
 	  <a href="https://www.jalc.de/">Journal of Automata, Languages and Combinatorics (JALC) Volume 24</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>	 
+	  <br/>
+	  <a href="https://www.jalc.de/issues/2019/issue_24_2-4/jalc-2019-287-307.php">published version</a></li>	 
 	  
 	  <li>Stefan Hoffmann, <i>Commutative Regular Languages - Properties and State Complexity</i>
-	  </br>
+	  <br/>
 	  <a href="https://www.pmf.ni.ac.rs/CAI2019/">International Conference on Algebraic Informatics (CAI) 2019</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="springerversion">conference version</a></li>	 
+	  <br/>
+	  <a href="https://doi.org/10.1007/978-3-030-21363-3_13">conference version</a></li>	 
 	  
 	  <li>Henning Fernau, Vladimir V. Gusev, Stefan Hoffmann, Markus Holzer, Mikhail V. Volkov, Petra Wolf <i>Computational Complexity of Synchronization under Regular Constraints</i>
-	  </br>
-	  <a href="https://tcs.rwth-aachen.de/mfcs2019/">Mathematical Foundations of Computer Science (MFCS) 2019</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="https://drops.dagstuhl.de/opus/volltexte/2019/11007/">conference version</a></li>	 
+	  <br/>
+	  <a href="https://tcs.rwth-aachen.de/mfcs2019/">Mathematical Foundations of Computer Science (MFCS) 2019</a><br/>
+	  <a href="https://drops.dagstuhl.de/opus/volltexte/2019/11007/">conference version</a></li>	 
 	  </ul>
 	  
 	  <h4>2017</h4>
 	  
 	  <ul>
-	   <li>Stefan Hoffmann, Sibylle Schwarz, Ludwig Staiger <i>Shift-invariant topologies for the Cantor space X<sup>ω</sup></i>
-	  </br>
-	  <a href="https://tcs.rwth-aachen.de/mfcs2019/">Mathematical Foundations of Computer Science (MFCS) 2019</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="https://drops.dagstuhl.de/opus/volltexte/2019/11007/">conference version</a></li>	 
+	   <li>Stefan Hoffmann, Sibylle Schwarz, Ludwig Staiger <i>Shift-invariant topologies for the Cantor space X<sup>ω</sup></i><br/>
+	  <a href="https://www.journals.elsevier.com/theoretical-computer-science">Theoretical Computer Science, Vol. 679</a><br/>
+	  <a href="https://doi.org/10.1016/j.tcs.2016.10.003">published version</a></li>	 
 	  </ul>
 	  
 	  
 	  <h4>2015</h4>
 	  
 	  <ul>
-	   <li>Stefan Hoffmann, Ludwig Staiger <i>Subword Metrics for Infinite Words</i>
-	  </br>
-	  <a href="http://ciaa2015.cs.umu.se/">International Conference
-Implementation and Application of Automata (CIAA) 2015</a>
-	  &#183; <a href="Todo">arXiv version</a> &#183; <a href="https://drops.dagstuhl.de/opus/volltexte/2019/11007/">conference version</a></li>	 
+	   <li>Stefan Hoffmann, Ludwig Staiger <i>Subword Metrics for Infinite Words</i><br/> 
+	   <a href="http://ciaa2015.cs.umu.se/">International Conference Implementation and Application of Automata (CIAA) 2015</a> <br/>
+	  <a href="https://doi.org/10.1007/978-3-319-22360-5_14">conference version</a></li>	 
 	  </ul>
 	  
-	 <h3>Preprints:</h3>
+	 <!-- <h3>Preprints:</h3> -->
 	 
 	</div>
 	 
 	</div>
     </div>
- 
- <!-- more dblp -->
-	
+ 	
   </body>
 </html>
