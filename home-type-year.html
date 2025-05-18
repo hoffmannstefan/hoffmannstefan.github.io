@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stefan Hoffmann</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  background-color: #ffffff;
+      color: #333;
+	  text-color: #222222;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 20px 10%;
+      background-color: #222;
+      color: white;
+	  background: linear-gradient(to right, #4f81c7, #8ec5fc);
+    }
+
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact {
+      font-size: 0.9em;
+      color: white;
+    }
+
+    .content-wrapper {
+      width: 75%;
+	  min-height:1000px;
+      margin: 30px auto;
+    }
+
+    .main-content {
+      text-align: justify;
+    }
+
+	
+    .infobox {
+      float: right;
+      width: 220px;
+      margin-left: 20px;
+      text-align: center;
+      background-color: #eef2f9;
+      padding: 10px;
+      border-radius: 8px;
+    }
+	
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    .subtitle {
+      font-size: 0.9em;
+      color: white;
+    }
+
+    .publications {
+      margin-top: 0px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+    .social-links {
+      list-style: none;
+      padding: 0px;
+	  padding-left:50px; /* vielleicht noch richtig zentral ausrichten, und nicht so */
+      max-width: 300px;
+    }
+
+    .social-links li {
+      margin: 10px 0;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #333;
+      display: flex;
+      align-items: center;
+      transition: color 0.2s;
+    }
+
+    .social-links a:hover {
+      color: #0077cc;
+    }
+
+    .icon {
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+    }
+
+    .social-links span {
+      font-size: 16px;
+    }
+	
+	.fa-youtube { color: #FF0000; }
+
+    .header-container {
+      display: flex;
+      align-items: baseline;
+      gap: 0px; /* Abstand zwischen Überschrift und Link */
+    }
+
+    .header-link {
+      font-size: 1.1em; /* kleiner als die Überschrift */
+      text-decoration: none;
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+	
+  <header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./notes.html">Notes</a>
+    </nav>
+    <div>
+      <h1>Stefan Hoffmann</h1>
+      <div class="subtitle">Researcher in Automata Theory, Algorithms, Cybernetics</div>
+      <div class="contact">Contact: hoffmanns (dot) tcs (at) gmail (dot) com</div>
+    </div>
+  </header>
+  <div class="content-wrapper">
+  	  
+    <div class="main-content">
+      <div class="infobox">
+	  
+		<img src="pic_small.png" style="margin-left:0px; width:170px; height:170px">
+		
+	
+        <ul class="social-links">
+   
+   
+    <li><a href="https://orcid.org/0000-0002-7866-075X" target="_blank">
+      <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_64x64.png" alt="ORCID" class="icon">
+      <span>ORCID</span></a></li>
+	 
+	 <li><a href="http://arxiv.org/a/hoffmann_s_1" target="_blank">
+    <img src="./arxiv-logomark-small@2x.png" alt="arXiv" class="icon">  
+    <span>arXiv</span></a></li>
+	
+	
+	 <li><a href="https://www.researchgate.net/profile/Stefan-Hoffmann-10" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate" class="icon">  
+    <span>ResearchGate</span></a></li>
+	
+	
+    <li><a href="https://scholar.google.com/citations?user=d0Ht2_MAAAAJ&hl=de" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" alt="Google Scholar" class="icon">
+      <span>Google Scholar</span></a></li>
+	  
+	  
+	  <li><a href="https://dblp.org/pid/73/962-1.html" target="_blank">
+    <img src="https://dblp.org/img/dblp.icon.192x192.png" alt="DBLP" class="icon">  
+    <span>DBLP</span></a></li>
+	
+	
+	  <li><a href="https://www.youtube.com/@pspace9458" target="_blank">
+      <i class="fab fa-youtube icon"></i>
+	  <span>Youtube</span></a></li>
+	
+	
+	 
+  </ul>
+
+     </div>
+      
+  
+		
+		
+		
+		I am a researcher in <a href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a> and previously worked as a <a href="https://en.wikipedia.org/wiki/Data_science">data scientist</a> and <a href="https://en.wikipedia.org/wiki/Solution_stack">full stack developer</a>
+		at a <a href="https://www.umh.de/einrichtungen/kliniken-und-departments/psychiatrie-psychotherapie-und-psychosomatik">psychiatric hospital</a>, managing patient and study data, and implementing and maintaining a software system to access these data.
+    
+	
+	    In my research, I contributed to the following fields of study:
+		
+		<ul>
+		<li><a href="https://en.wikipedia.org/wiki/Automata_theory">automata theory</a>, more specifically problems of <a href="https://en.wikipedia.org/wiki/Synchronizing_word">synchronization</a> and <a href="https://en.wikipedia.org/wiki/State_complexity">state complexity</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/Formal_language">formal language theory</a>, in particular commutative languages and the <a href="https://en.wikipedia.org/wiki/Shuffle_algebra#Shuffle_product">shuffle operation</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/General_topology">topological investigations</a> on <a href="https://en.wikipedia.org/wiki/Omega_language">omega languages</a> 
+		</ul>
+		
+        I also offered courses and seminars on the topics of my research, as well as on the <a href="https://en.wikipedia.org/wiki/Discrete_mathematics">mathematical foundations of computer science</a>
+		and <a href="https://en.wikipedia.org/wiki/Parameterized_complexity">parameterized complexity</a> during my time at <a href="https://en.wikipedia.org/wiki/University_of_Trier">Trier University</a>.
+	 
+	
+	 <p>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erd&ouml;s number</a> is three (via <a href="https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/informatikwissenschaften/professuren/theoretische-informatik/personen/prof-dr-henning-fernau">Henning Fernau</a> or <a href="https://www.informatik.uni-halle.de/arbeitsgruppen/theorie/mitarbeiter/staiger/">Ludwig Staiger</a>, both two).</p>
+	 
+	 <p> 
+	 <b>Research interest keywords</b>: automata, formal language theory, synchronization, (finite) permutation group theory, permutation automata, group languages, parameterized complexity, computational complexity, shuffle product, partial commutativity, commutative languages, state complexity, omega languages.
+	 </p> 
+	
+
+		
+		
+	  
+    </div>
+
+    <div class="publications">
+	
+	<h2 style="margin:0">Publications (peer reviewed)</h2>
+	<i style="font-size:1.1em;text-decoration: none">sort by <a href="./index.html">year</a> &bull; <b><a href="./home-type-year.html">type</a></b></i>
+		
+	<h3>In press:</h3>
+	
+	<ul>
+	<li>Synchronization of Parikh Automata, <em>Theory Comput. Syst.</em> (extended version of conference contribution)</li>
+   	<li>Completely Distinguishable Automata and the Set of Synchronizing Words, <em>Theory Comput. Syst.</em> (extended version of conference contribution)</li>
+    <li>The <em>n</em>-ary Initial Literal and Literal Shuffle, <em>Discrete Appl. Math.</em> (extended version of conference contribution)</li>
+	</ul>	
+	  
+	  
+
+
+
+<h3>Journal Article</h3>
+<ul>
+<li>Binary and circular automata having maximal state complexity for the set of synchronizing words,  <em>Inf. Comput.</em> <b>295</b>.Part A  (2023) 105076; doi: <a href="https://doi.org/10.1016/J.IC.2023.105076">10.1016/J.IC.2023.105076</a></li><p></p>
+<li>Constrained synchronization and commutativity,  <em>Theor. Comput. Sci.</em> <b>890</b>. (2021) 147-170; doi: <a href="https://doi.org/10.1016/J.TCS.2021.08.030">10.1016/J.TCS.2021.08.030</a></li><p></p>
+<li>New characterizations of primitive permutation groups with applications to synchronizing automata,  <em>Inf. Comput.</em> <b>295</b>.Part A  (2023) 105086; doi: <a href="https://doi.org/10.1016/J.IC.2023.105086">10.1016/J.IC.2023.105086</a></li><p></p>
+<li>Regularity Conditions for Iterated Shuffle on Commutative Regular Languages,  <em>Int. J. Found. Comput. Sci.</em> <b>34</b>.8 (2023) 923-957; doi: <a href="https://doi.org/10.1142/S0129054123430037">10.1142/S0129054123430037</a></li><p></p>
+<li>State complexity bounds for projection, shuffle, up- and downward closure and interior on commutative regular languages,  <em>Inf. Comput.</em> <b>301</b>. (2024) 105204; doi: <a href="https://doi.org/10.1016/J.IC.2024.105204">10.1016/J.IC.2024.105204</a></li><p></p>
+<li>State Complexity Bounds for the Commutative Closure of Group Languages,  <em>J. Autom. Lang. Comb.</em> <b>28</b>.1-3 (2023) 27-57; doi: <a href="https://doi.org/10.25596/JALC-2023-027">10.25596/JALC-2023-027</a></li><p></p>
+<li>State Complexity of Permutation and the Language Inclusion Problem up to Parikh Equivalence on Alphabetical Pattern Constraints and Partially Ordered NFAs,  <em>Int. J. Found. Comput. Sci.</em> <b>34</b>.8 (2023) 959-986; doi: <a href="https://doi.org/10.1142/S0129054123430025">10.1142/S0129054123430025</a></li><p></p>
+<li>(with Henning Fernau) Extensions to Minimal Synchronizing Words,  <em>J. Autom. Lang. Comb.</em> <b>24</b>.2-4 (2019) 287-307; doi: <a href="https://doi.org/10.25596/JALC-2019-287">10.25596/JALC-2019-287</a></li><p></p>
+<li>(with Sibylle Schwarz and Ludwig Staiger) Shift-invariant topologies for the Cantor space X<sup>&#969;</sup>,  <em>Theor. Comput. Sci.</em> <b>679</b>. (2017) 145-161; doi: <a href="https://doi.org/10.1016/J.TCS.2016.10.003">10.1016/J.TCS.2016.10.003</a></li><p></p>
+</ul>
+<h3>Conference Contribution</h3>
+<ul>
+<li>Automata Classes Accepting Languages Whose Commutative Closure is Regular,  in <em>SOFSEM 2024: Theory and Practice of Computer Science - 49th International Conference on Current Trends in Theory and Practice of Computer Science, SOFSEM 2024, Cochem, Germany, February 19-23, 2024, Proceedings</em> <b>14519</b> (2024) 311-325; doi: <a href="https://doi.org/10.1007/978-3-031-52113-3_22">10.1007/978-3-031-52113-3_22</a></li><p></p>
+<li>Automata-Theoretical Regularity Characterizations for the Iterated Shuffle on Commutative Regular Languages,  in <em>Developments in Language Theory - 26th International Conference, DLT 2022, Tampa, FL, USA, May 9-13, 2022, Proceedings</em> <b>13257</b> (2022) 164-176; doi: <a href="https://doi.org/10.1007/978-3-031-05578-2_13">10.1007/978-3-031-05578-2_13</a></li><p></p>
+<li>Commutative Regular Languages - Properties and State Complexity,  in <em>Algebraic Informatics - 8th International Conference, CAI 2019, Ni&scaron;, Serbia, June 30 - July 4, 2019, Proceedings</em> <b>11545</b> (2019) 151-163; doi: <a href="https://doi.org/10.1007/978-3-030-21363-3_13">10.1007/978-3-030-21363-3_13</a></li><p></p>
+<li>Commutative Regular Languages with Product-Form Minimal Automata,  in <em>Descriptional Complexity of Formal Systems - 23rd IFIP WG 1.02 International Conference, DCFS 2021, Virtual Event, September 5, 2021, Proceedings</em> <b>13037</b> (2021) 51-63; doi: <a href="https://doi.org/10.1007/978-3-030-93489-7_5">10.1007/978-3-030-93489-7_5</a></li><p></p>
+<li>Completely Distinguishable Automata and the Set of Synchronizing Words,  in <em>Developments in Language Theory - 27th International Conference, DLT 2023, Ume&aring;, Sweden, June 12-16, 2023, Proceedings</em> <b>13911</b> (2023) 128-142; doi: <a href="https://doi.org/10.1007/978-3-031-33264-7_11">10.1007/978-3-031-33264-7_11</a></li><p></p>
+<li>Completely Reachable Automata, Primitive Groups and the State Complexity of the Set of Synchronizing Words,  in <em>Language and Automata Theory and Applications - 15th International Conference, LATA 2021, Milan, Italy, March 1-5, 2021, Proceedings</em> <b>12638</b> (2021) 305-317; doi: <a href="https://doi.org/10.1007/978-3-030-68195-1_24">10.1007/978-3-030-68195-1_24</a></li><p></p>
+<li>Computational Complexity of Synchronization Under Regular Commutative Constraints,  in <em>Computing and Combinatorics - 26th International Conference, COCOON 2020, Atlanta, GA, USA, August 29-31, 2020, Proceedings</em> <b>12273</b> (2020) 460-471; doi: <a href="https://doi.org/10.1007/978-3-030-58150-3_37">10.1007/978-3-030-58150-3_37</a></li><p></p>
+<li>Computational Complexity of Synchronization Under Sparse Regular Constraints,  in <em>Fundamentals of Computation Theory - 23rd International Symposium, FCT 2021, Athens, Greece, September 12-15, 2021, Proceedings</em> <b>12867</b> (2021) 272-286; doi: <a href="https://doi.org/10.1007/978-3-030-86593-1_19">10.1007/978-3-030-86593-1_19</a></li><p></p>
+<li>Constrained Synchronization and Subset Synchronization Problems for Weakly Acyclic Automata,  in <em>Developments in Language Theory - 25th International Conference, DLT 2021, Porto, Portugal, August 16-20, 2021, Proceedings</em> <b>12811</b> (2021) 204-216; doi: <a href="https://doi.org/10.1007/978-3-030-81508-0_17">10.1007/978-3-030-81508-0_17</a></li><p></p>
+<li>Constrained Synchronization for Monotonic and Solvable Automata and Automata with Simple Idempotents,  in <em>Implementation and Application of Automata - 26th International Conference, CIAA 2022, Rouen, France, June 28 - July 1, 2022, Proceedings</em> <b>13266</b> (2022) 225-237; doi: <a href="https://doi.org/10.1007/978-3-031-07469-1_18">10.1007/978-3-031-07469-1_18</a></li><p></p>
+<li>Ideal Separation and General Theorems for Constrained Synchronization and Their Application to Small Constraint Automata,  in <em>Computing and Combinatorics - 27th International Conference, COCOON 2021, Tainan, Taiwan, October 24-26, 2021, Proceedings</em> <b>13025</b> (2021) 176-188; doi: <a href="https://doi.org/10.1007/978-3-030-89543-3_15">10.1007/978-3-030-89543-3_15</a></li><p></p>
+<li>On A Class of Constrained Synchronization Problems in NP ,  in <em>Proceedings of the 21st Italian Conference on Theoretical Computer Science, Ischia, Italy, September 14-16, 2020</em> <b>2756</b> (2020) 145-157; doi: <a href="https://doi.org/"></a></li><p></p>
+<li>Reset Complexity and Completely Reachable Automata with Simple Idempotents,  in <em>Descriptional Complexity of Formal Systems - 24th IFIP WG 1.02 International Conference, DCFS 2022, Debrecen, Hungary, August 29-31, 2022, Proceedings</em> <b>13439</b> (2022) 85-99; doi: <a href="https://doi.org/10.1007/978-3-031-13257-5_7">10.1007/978-3-031-13257-5_7</a></li><p></p>
+<li>State Complexity Bounds for the Commutative Closure of Group Languages,  in <em>Descriptional Complexity of Formal Systems - 22nd International Conference, DCFS 2020, Vienna, Austria, August 24-26, 2020, Proceedings</em> <b>12442</b> (2020) 64-77; doi: <a href="https://doi.org/10.1007/978-3-030-62536-8_6">10.1007/978-3-030-62536-8_6</a></li><p></p>
+<li>State Complexity Investigations on Commutative Languages - the Upward and Downward Closure, Commutative Aperiodic and Commutative Group Languages,  in <em>Descriptional Complexity of Formal Systems - 23rd IFIP WG 1.02 International Conference, DCFS 2021, Virtual Event, September 5, 2021, Proceedings</em> <b>13037</b> (2021) 64-75; doi: <a href="https://doi.org/10.1007/978-3-030-93489-7_6">10.1007/978-3-030-93489-7_6</a></li><p></p>
+<li>State Complexity of Permutation and Related Decision Problems on Alphabetical Pattern Constraints,  in <em>Implementation and Application of Automata - 25th International Conference, CIAA 2021, Virtual Event, July 19-22, 2021, Proceedings</em> <b>12803</b> (2021) 115-126; doi: <a href="https://doi.org/10.1007/978-3-030-79121-6_10">10.1007/978-3-030-79121-6_10</a></li><p></p>
+<li>State Complexity of Projection on Languages Recognized by Permutation Automata and Commuting Letters,  in <em>Developments in Language Theory - 25th International Conference, DLT 2021, Porto, Portugal, August 16-20, 2021, Proceedings</em> <b>12811</b> (2021) 192-203; doi: <a href="https://doi.org/10.1007/978-3-030-81508-0_16">10.1007/978-3-030-81508-0_16</a></li><p></p>
+<li>State Complexity of the Set of Synchronizing Words for Circular Automata and Automata over Binary Alphabets,  in <em>Language and Automata Theory and Applications - 15th International Conference, LATA 2021, Milan, Italy, March 1-5, 2021, Proceedings</em> <b>12638</b> (2021) 318-330; doi: <a href="https://doi.org/10.1007/978-3-030-68195-1_25">10.1007/978-3-030-68195-1_25</a></li><p></p>
+<li>Synchronization of Parikh Automata,  in <em>Developments in Language Theory - 27th International Conference, DLT 2023, Ume&aring;, Sweden, June 12-16, 2023, Proceedings</em> <b>13911</b> (2023) 113-127; doi: <a href="https://doi.org/10.1007/978-3-031-33264-7_10">10.1007/978-3-031-33264-7_10</a></li><p></p>
+<li>Sync-Maximal Permutation Groups Equal Primitive Permutation Groups,  in <em>Descriptional Complexity of Formal Systems - 23rd IFIP WG 1.02 International Conference, DCFS 2021, Virtual Event, September 5, 2021, Proceedings</em> <b>13037</b> (2021) 38-50; doi: <a href="https://doi.org/10.1007/978-3-030-93489-7_4">10.1007/978-3-030-93489-7_4</a></li><p></p>
+<li>The Commutative Closure of Shuffle Languages over Group Languages is Regular,  in <em>Implementation and Application of Automata - 25th International Conference, CIAA 2021, Virtual Event, July 19-22, 2021, Proceedings</em> <b>12803</b> (2021) 53-64; doi: <a href="https://doi.org/10.1007/978-3-030-79121-6_5">10.1007/978-3-030-79121-6_5</a></li><p></p>
+<li>The n-ary Initial Literal and Literal Shuffle,  in <em>Prague Stringology Conference 2021, Prague, Czech Republic, August 30-31, 2021</em> <b></b> (2021) 61-74; doi: <a href="https://doi.org/"></a></li><p></p>
+<li>(with Emmanuel Arrighi, Henning Fernau, Markus Holzer, Isma&euml;l Jecker, Mateus de Oliveira Oliveira and Petra Wolf) On the Complexity of Intersection Non-emptiness for Star-Free Language Classes,  in <em>41st IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science, FSTTCS 2021, December 15-17, 2021, Virtual Conference</em> <b>213</b> (2021) 34:1-34:15; doi: <a href="https://doi.org/10.4230/LIPICS.FSTTCS.2021.34">10.4230/LIPICS.FSTTCS.2021.34</a></li><p></p>
+<li>(with Henning Fernau, Carolina Haase and Mikhail Volkov) Winning Strategies for the Synchronization Game on Subclasses of Finite Automata,  in <em>Proceedings 14th International Workshop on Non-Classical Models of Automata and Applications (NCMA 2024), NCMA 2024, G&ouml;ttingen, Germany, 12-13 August 2024</em> <b>407</b> (2024) 77-85; doi: <a href="https://doi.org/10.4204/EPTCS.407.6">10.4204/EPTCS.407.6</a></li><p></p>
+<li>(with Henning Fernau, Carolina Haase) The Synchronization Game on Subclasses of Automata,  in <em>11th International Conference on Fun with Algorithms, FUN 2022, May 30 to June 3, 2022, Island of Favignana, Sicily, Italy</em> <b>226</b> (2022) 14:1-14:17; doi: <a href="https://doi.org/10.4230/LIPICS.FUN.2022.14">10.4230/LIPICS.FUN.2022.14</a></li><p></p>
+<li>(with Henning Fernau, Vladimir V. Gusev, Markus Holzer, Mikhail V. Volkov and Petra Wolf) Computational Complexity of Synchronization under Regular Constraints,  in <em>44th International Symposium on Mathematical Foundations of Computer Science, MFCS 2019, August 26-30, 2019, Aachen, Germany</em> <b>138</b> (2019) 63:1-63:14; doi: <a href="https://doi.org/10.4230/LIPICS.MFCS.2019.63">10.4230/LIPICS.MFCS.2019.63</a></li><p></p>
+<li>(with Ludwig Staiger) Subword Metrics for Infinite Words,  in <em>Implementation and Application of Automata - 20th International Conference, CIAA 2015, Ume&aring;, Sweden, August 18-21, 2015, Proceedings</em> <b>9223</b> (2015) 165-175; doi: <a href="https://doi.org/10.1007/978-3-319-22360-5_14">10.1007/978-3-319-22360-5_14</a></li><p></p>
+</ul>
+
+    </div>
+
+
+
+</div>
+</body>
+</html>
