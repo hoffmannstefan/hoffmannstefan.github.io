@@ -1,195 +1,149 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Homepage of Stefan Hoffmann</title>
-    <style>
-/* body {background-color: white;} */
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stefan Hoffmann</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  background-color: #ffffff;
+      color: #333;
+	  text-color: #222222;
+    }
 
-body {
-    /* font-family: arial,x-locale-body,sans-serif; */
-    letter-spacing: -.0027777778rem;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 100%;
-    /* line-height: 1.75; */
-	line-height: 1.35;
-	/* background-color: #eee; */
-	bakcground-color: white;
-	font-family: "Helvetica Neue", Arial, sans-serif;
-	margin-top:30px;
-	margin-left:110px;
-	margin-right:110px;
-}
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 20px 10%;
+      background-color: #222;
+      color: white;
+	  background: linear-gradient(to right, #4f81c7, #8ec5fc);
+    }
 
-h3,h4 { 
- color: rgb(42,110,166);
-}
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-.header {
-float:left;
-border:1px solid black;
-background-color: white;
-width:220px;
-}
+    .contact {
+      font-size: 0.9em;
+      color: white;
+    }
 
+    .content-wrapper {
+      width: 75%;
+	  min-height:1000px;
+      margin: 30px auto;
+    }
 
-.content {
- /* margin:10px; */
- padding:15px; 
- padding-top:30px;
- margin-left:20px;
-}
+    .main-content {
+      text-align: justify;
+    }
 
- nav#menu {
- float:left;
- width:220px;
-   font-size: 14px;
-   /* background-color: #fff; */
-   box-shadow: 0 5px 20px #efefef;
-   margin: 0;
-   padding: 0 1em;
-   position: relative;
-   height: 60px;
-   overflow: hidden;
-}
-
- nav#menu ul {
-   margin: 0;
-   padding: 0;
-   list-style-type: none;
-   max-height: 120px;
-   position: relative;
-}
- nav#menu ul li {
-   display: inline-block;
-}
- nav#menu ul li:last-child {
-   position: absolute;
-   right: 0;
-   bottom: 45px;
-   background-image: linear-gradient(to right, rgba(236, 240, 241, 0) 0, #fff 2em);
-   padding-left: 3em;
-}
- nav#menu ul li:nth-last-child(2) {
-   display: none;
-}
- nav#menu ul li a {
-   display: inline-block;
-   padding: 0 1em;
-   color: #333;
-   font-weight: 700;
-   letter-spacing: 0.1em;
-   text-decoration: none;
-   text-transform: uppercase;
-   white-space: nowrap;
-   line-height: 60px;
-}
- nav#menu ul li a:hover {
-   background-color: rgba(51, 51, 51, 0.08);
-}
- nav#menu:target {
-   height: auto;
-   padding: 0;
-}
- nav#menu:target ul {
-   max-height: none;
-}
- nav#menu:target ul li {
-   display: block;
-}
- nav#menu:target ul li:not(:first-child) {
-   margin-top: 2px;
-}
- nav#menu:target ul li:last-child {
-   display: none;
-}
- nav#menu:target ul li:nth-last-child(2) {
-   display: inline-block;
-   position: absolute;
-   top: 0;
-   right: 0;
-   margin: 0;
-   border-left: 2px solid #dde4e6;
-}
- nav#menu:target ul li a {
-   display: block;
-   padding: 0 2em;
-   background-color: rgba(51, 51, 51, 0.05);
-}
- nav#menu:target ul li a:hover {
-   background-color: rgba(51, 51, 51, 0.08);
-}
-
-li:not(:last-child) {
-    padding-bottom: 11px;
-}
-
-</style> <!-- header.img { width:100%; height:100%; } -->
-  </head>
-  <body>
-   
-   <!-- kontakiteren, collaboration, despite giving a different ex , genau und commited -->
-   
-   <!-- bild + menü genügt, dann einfach text -->
-   <!-- menü links, oder rechts, oder oben? -->
-   <!-- header in picture umbennenn, oderin menü einbauen -->
-   
-   
-    
 	
-	<!-- mail als bild -->
+    .infobox {
+      float: right;
+      width: 220px;
+      margin-left: 20px;
+      text-align: center;
+       background-color: #eef2f9;
+      padding: 10px;
+      border-radius: 8px;
+    }
 	
-	<!-- <div class="menu"> -->
-	 <!-- work, personal, errata, links, research (statement) auf front page, courses, vita? -->
-	 <!-- projects, code, github, TrAumata -->
-	 <!-- music, aoe? -->
-	 <!-- reviewer for -->
-	 <!-- essays, teaching -->
-	 <!-- link auf arxiv overview page -->
-	<!-- </div> -->
-	
-	<div style="float:right;font-size:13px;">
-	<a href="https://dblp.org/pid/73/962-1.html">
-         DBLP</a>
-	   &#183; 
-	   <a href="https://scholar.google.com/citations?user=d0Ht2_MAAAAJ&hl=de">Google Scholar</a>
-	   &#183; 
-	   <a href="https://orcid.org/0000-0002-7866-075X">ORCID</a>
-	   &#183;
-	   <a href="https://www.researchgate.net/profile/Stefan-Hoffmann-10">ResearchGate</a>
-	   &#183;
-	   <a href="http://arxiv.org/a/hoffmann_s_1">ArXiv</a>
-	   </div>
-	   
-	<div style="border: 1px dashed black;"> <!-- style="padding: 5px; border: 1px solid red;"> -->
-    <div style="background-color:#ffffff; position: absolute;"> <!-- border: 1px solid black;"> <!-- width: 220px; height:2000px;"> <!-- border: 1px solid black; word-wrap: break-word;"> -->
-	<div><!-- class="header"> -->
-		
-		<br/>
-		<img src="pic_small.png" style="margin-left:10px; width:200px; height:100%">
-		
-	</div>
-	<nav id="menu2"> <!-- style="border:1px solid black;width=100px;background-color:white;"> -->
-	
-	
-  <ul>
-    &nbsp;
-	&nbsp;
-    <li><a href="./index.html">Start</a></li>
-    <li><a href="./notes.html">Notes</a></li>
-	<!--
-    <li><a href="/tools/">Tools</a></li>
-    <li><a href="/websites/">Webseiten erstellen</a></li>
-    <li><a href="/webdesign/">Webdesign</a></li>
-    <li><a href="/websites/wordpress/">WordPress</a></li>
-	-->
-  </ul>
 
-</nav>
-	</div>
-    <div style="margin-left: 220px; height:2000px"> 	
-	<div class="content"> 
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    .subtitle {
+      font-size: 0.9em;
+      color: white;
+    }
+
+    .publications {
+      margin-top: 0px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  
+
+    .social-links {
+      list-style: none;
+      padding: 0px;
+	  padding-left:50px; /* vielleicht noch richtig zentral ausrichten, und nicht so */
+      max-width: 300px;
+    }
+
+    .social-links li {
+      margin: 10px 0;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #333;
+      display: flex;
+      align-items: center;
+      transition: color 0.2s;
+    }
+
+    .social-links a:hover {
+      color: #0077cc;
+    }
+
+    .icon {
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+    }
+
+    .social-links span {
+      font-size: 16px;
+    }
 	
+	.fa-youtube { color: #FF0000; }
+  
+    .header-container {
+      display: flex;
+      align-items: baseline;
+      gap: 0px; /* Abstand zwischen Überschrift und Link */
+    }
+
+    .header-link {
+      font-size: 1.1em; /* kleiner als die Überschrift */
+      text-decoration: none;
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+	
+  <header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./notes.html">Notes</a>
+    </nav>
+    <div>
+      <h1>Stefan Hoffmann</h1>
+      <div class="subtitle">Researcher in Automata Theory, Algorithms, Cybernetics</div>
+      <div class="contact">Contact: hoffmanns (dot) tcs (at) gmail (dot) com</div>
+    </div>
+  </header>
+  <div class="content-wrapper">
+  	  
 	<p>Here, I collect various notes and thoughts.</p>
 	
 	
@@ -208,8 +162,7 @@ li:not(:last-child) {
 	<a href="./notes/cgt/schreier-sims/schreier-sims.cpp">Source Code</a>
 	</li>
 	</ul>
-	</div>	 
-	</div>
-  </div> 	
-  </body>
+
+</div>
+</body>
 </html>
