@@ -1,1 +1,1 @@
-My old static homepage hosted on Github Pages: [Homepage](https://hoffmannstefan.github.io/)
+My old static [homepage](https://hoffmannstefan.github.io/) hosted on Github Pages.
